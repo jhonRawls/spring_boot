@@ -40,7 +40,50 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-</dependencies>
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.5</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.3</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.39</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/fluent-hc -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>fluent-hc</artifactId>
+			<version>4.5.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.6</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.3</version>
+		</dependency>
+
+
+	</dependencies>
 
 	<build>
 		<plugins>
